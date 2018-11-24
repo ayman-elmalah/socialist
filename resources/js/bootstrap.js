@@ -52,7 +52,7 @@ import Echo from 'laravel-echo'
 window.Pusher = require('pusher-js');
 
 window.Echo = new Echo({
-    authEndpoint : base_url + '/broadcasting/auth',
+    authEndpoint : base_url + 'broadcasting/auth',
     broadcaster: 'pusher',
     key: process.env.MIX_PUSHER_APP_KEY,
     cluster: process.env.MIX_PUSHER_APP_CLUSTER,

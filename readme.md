@@ -25,7 +25,7 @@ and also these function can be used for any purpose need realtime
 3. Rename .env.example to .env
 4. Create database and insert it's credentials into .env
 5. Create pusher account then get keys, and insert it into .env, with changing BROADCAST_DRIVER to pusher
-6. Run ``` php artisan migrate -seed ```
+6. Run ``` php artisan migrate --seed ```
 7. Run ``` php artisan key:generate ```
 8. Run ``` php artisan serve ```
 9. If you want to run project into any url except 127.0.0.1:8000, go to resources/js/bootstrap.js and change base_url to your project base url then run ``` npm run watch ```
